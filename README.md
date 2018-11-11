@@ -12,9 +12,13 @@
 
 ## 组成
 
+包括各种RTOS系统文件和相关组件
+
 #### uCOS-III
+
+#### FreeRTOS
 
 ---
 
-##  www.mcuyun.com   |   qitas@qitas.cn
+##  www.OS-Q.com   |   qitas@qitas.cn
 
