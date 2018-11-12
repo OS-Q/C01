@@ -1,22 +1,40 @@
-﻿# Q2: [OS-Q边缘网关节点](https://github.com/OS-Q/Q2) 
+﻿# Q2:[OS-Q通信系统](https://github.com/OS-Q/Q2) 
 
-[![sites](OS-Q/OS-Q.png)](http://www.os-q.com)
+Q2为边缘网关系统，在OS-Q系统中用于和互联网进行对接
 
-#### 更多关于：[OS-Q](https://github.com/OS-Q/OS-Q) 可访问 www.OS-Q.com
+[![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-## 描述
+#### 数据分发：[Q4系统](https://github.com/OS-Q/Q4)
 
-边缘网关节点，负责将物理世界散布的数据传入互联网，需要运行的环境有对应的物理通信能力和安全防护能力
+#### 边缘计算：[Q3系统](https://github.com/OS-Q/Q3)
+
+#### 边缘控制：[Q1系统](https://github.com/OS-Q/Q1)
+
+#### 更多关于：[OS-Q系统](https://github.com/OS-Q/OS-Q)可访问 www.OS-Q.com
+
+---
+
+## 简介
+
+Q2系统通过不同物理通信方式的转换，实现数据在对应的设备端间传递
 
 ---
 
 ## 组成
 
-包括各种RTOS系统文件和相关组件
+#### [M4短距无线](https://github.com/OS-Q/M4)
 
-#### uCOS-III
+通过短距无线接入方式（WIFI)将数据接入到互联网
 
-#### FreeRTOS
+#### [M5长距无线](https://github.com/OS-Q/M5)
+
+通过长距无线通信方式将数据接入到互联网
+
+#### [M6有线路由](https://github.com/OS-Q/M6)
+
+通过有线网络实现相应数据的转换和接入
+
+
 
 ---
 
