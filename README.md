@@ -2,7 +2,7 @@
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 关于边缘设备：[Edge](https://github.com/OS-Q/Edge-Q)
+#### 归属边缘设备：[Edge](https://github.com/OS-Q/Edge-Q)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
@@ -10,7 +10,7 @@
 
 ## [体系描述](https://github.com/OS-Q/Q2/wiki) 
 
-Q1边缘控制体系，用于对底层设备实施控制，和物理世界交互，处于数据的生产和消费的最前端
+Q2边缘通信体系，用于对物联数据进行运输，包括数据汇集和包装，也包括数据的准确送达
 
 ### 共用资源
 
