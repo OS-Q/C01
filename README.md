@@ -1,48 +1,64 @@
-﻿# Q2:[边缘通信](https://github.com/OS-Q/Q2) 
+﻿# Q2：[边缘通信](https://github.com/OS-Q/Q2)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 弹性计算：[Q4](https://github.com/OS-Q/Q4)
+#### 关于边缘设备：[Edge](https://github.com/OS-Q/Edge-Q)
 
-#### 边缘计算：[Q3](https://github.com/OS-Q/Q3)
-
-#### 边缘控制：[Q1](https://github.com/OS-Q/Q1)
-
-#### 边缘设备：[Edge](https://github.com/OS-Q/Edge-Q)
-
-#### 系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
-## [体系简介](https://github.com/OS-Q/Q2/wiki) 
+## [体系描述](https://github.com/OS-Q/Q2/wiki) 
 
-Q2为边缘通信体系，Q2通过不同通信方式的转换，在OS-Q系统中用于将外围边缘设备数据进行聚焦
+Q1边缘控制体系，用于对底层设备实施控制，和物理世界交互，处于数据的生产和消费的最前端
 
-#### 共用资源
+### 共用资源
 
-网络协议和通信协议
+#### 数据协议
 
+- 加密协议
 
-## [组成节点](https://github.com/OS-Q/Q2/wiki/index)  
+- 路由协议
 
-边缘设备向下分类命名方式为：体系Q[1,4] - 节点M[1,12] - 平台W[1,52] - 设备D[1,365]，参照年度计时单位制。
+---
 
-#### M4:[汇集节点](https://github.com/OS-Q/M4)
+边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
-通过短距无线接入方式（WIFI)将数据接入到互联网
+## [包含节点](https://github.com/OS-Q/Q2/wiki/index) 
 
-#### M5:[网络节点](https://github.com/OS-Q/M5)
+#### M4:[转换节点](https://github.com/OS-Q/M4)
 
-通过长距无线通信方式将数据接入到互联网
+数据转换节点，多入单出管道通信
 
-#### M6:[广域节点](https://github.com/OS-Q/M6)
+#### M5:[分发节点](https://github.com/OS-Q/M5)
 
-通过有线网络实现相应数据的转换和接入
+数据分发节点，多入多出数据分发
 
+#### M6:[网络节点](https://github.com/OS-Q/M6)
+
+网络接入节点，物联和互联网接壤
+
+## [设备体系](https://github.com/OS-Q/Edge-Q/wiki/Q)
+
+#### Q1：[边缘控制](https://github.com/OS-Q/Q1) 
+
+用于执行Q系统数据生产消费的边缘设备体系
+
+#### -> Q2：[边缘通信](https://github.com/OS-Q/Q2)
+
+用于执行Q系统数据转移运输的边缘设备体系
+
+#### Q3：[边缘计算](https://github.com/OS-Q/Q3)
+
+用于执行Q系统数据处理加工的边缘设备体系
+
+#### Q4：[弹性计算](https://github.com/OS-Q/Q4)
+
+用于支撑Q系统临时资源需求的边缘设备体系
 
 
 ---
 
-###  [Q redefined the scope of operation system](https://github.com/OS-Q/OS-Q) 
-
-###  www.OS-Q.com   by:   qitas@qitas.cn
+###  [Q redefined the scope of operation system](http://www.OS-Q.com)
+###  qitas@qitas.cn
+###  2018-11-28
