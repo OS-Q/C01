@@ -12,31 +12,34 @@
 
 Q2边缘通信体系，用于对物联数据进行运输，包括数据汇集和包装，也包括数据的准确送达
 
-### 共用资源
+### [共用资源](https://github.com/OS-Q/Q2/wiki)
 
-#### 数据协议
+#### [内部协同](Q2/)
 
-- 加密协议
+Q2通信体系内部协同规范
 
-- 路由协议
+#### [计算协同](Q3/)
+
+Q2通信体系和Q3计算体系协同规范
+
 
 ---
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
 ## [包含节点](https://github.com/OS-Q/Q2/wiki/index) 
 
-#### M4:[转换节点](https://github.com/OS-Q/M4)
+#### M4：[嵌入节点](https://github.com/OS-Q/M4)
 
-数据转换节点，多入单出管道通信
+嵌入到其他设备上进行通信
 
-#### M5:[分发节点](https://github.com/OS-Q/M5)
+#### M5：[转换节点](https://github.com/OS-Q/M5)
 
-数据分发节点，多入多出数据分发
+物理通道和通信方式的转换
 
-#### M6:[网络节点](https://github.com/OS-Q/M6)
+#### M6：[路由节点](https://github.com/OS-Q/M6)
 
-网络接入节点，物联和互联网接壤
+实现物联网内部的数据交换
 
 ## [设备体系](https://github.com/OS-Q/Edge-Q/wiki/Q)
 
@@ -59,6 +62,6 @@ Q2边缘通信体系，用于对物联数据进行运输，包括数据汇集和
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
-###  qitas@qitas.cn
-###  2018-11-28
+####  qitas@qitas.cn
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
+####  2018-12-7
