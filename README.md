@@ -6,7 +6,6 @@
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
----
 
 ## [体系描述](https://github.com/OS-Q/Q2/wiki) 
 
@@ -14,14 +13,25 @@ Q2边缘通信体系，用于对物联数据进行运输，包括数据汇集和
 
 ### [共用资源](https://github.com/OS-Q/Q2/wiki)
 
-#### [内部协同](Q2/)
+体系内所有成员遵从的资源文件，主要是用于和其他体系对接
 
-Q2通信体系内部协同规范
+#### [文件Q3](Q3/)
 
-#### [计算协同](Q3/)
+Q2体系和Q3体系协同规范和资源
 
-Q2通信体系和Q3计算体系协同规范
+- 计算辅助请求API
 
+- 数据请求和查询API
+
+- 控制接口和证书
+
+#### [文件Q4](Q4/)
+
+Q2体系和Q4体系协同规范和资源
+
+- 通信体系节点编码规范
+
+- 通信体系数据解析协议
 
 ---
 
@@ -29,19 +39,19 @@ Q2通信体系和Q3计算体系协同规范
 
 ## [包含节点](https://github.com/OS-Q/Q2/wiki/index) 
 
-#### M4：[嵌入节点](https://github.com/OS-Q/M4)
+#### M4：[桥接节点](https://github.com/OS-Q/M4)
 
-嵌入到其他设备上进行通信
+作为通信桥梁转换或增强相应信号
 
-#### M5：[转换节点](https://github.com/OS-Q/M5)
+#### M5：[集成节点](https://github.com/OS-Q/M5)
 
-物理通道和通信方式的转换
+集成通信和控制的一体化边缘节点
 
 #### M6：[路由节点](https://github.com/OS-Q/M6)
 
-实现物联网内部的数据交换
+物联设备内部数据交换和网络连接
 
-## [设备体系](https://github.com/OS-Q/Edge-Q/wiki/Q)
+## [设备体系](https://github.com/OS-Q/Edge-Q/wiki)
 
 #### Q1：[边缘控制](https://github.com/OS-Q/Q1) 
 
@@ -64,4 +74,6 @@ Q2通信体系和Q3计算体系协同规范
 
 ####  qitas@qitas.cn
 ###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-####  2018-12-7
+####  © 2018-12-11
+
+---
