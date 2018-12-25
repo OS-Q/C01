@@ -1,4 +1,4 @@
-﻿# Q2：[边缘通信](https://github.com/OS-Q/Q2)
+﻿# Q2：[边通信](https://github.com/OS-Q/Q2)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -6,48 +6,45 @@
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
-
 ## [体系描述](https://github.com/OS-Q/Q2/wiki) 
 
-Q2边缘通信体系，用于对物联数据进行运输，包括数据汇集和包装，也包括数据的准确送达
+Q2 边缘通信体系，用于向下一级的数据传送，包括数据汇集和包装
 
-### [共用资源](https://github.com/OS-Q/Q2/wiki)
+### [共用资源](OS-Q/)
 
-体系内所有成员遵从的资源文件，主要是用于和其他体系对接
+#### [边缘协同](Q3/)
 
-#### [文件Q3](Q3/)
+Q2通信体系和Q3边缘体系协同资源
 
-Q2体系和Q3体系协同规范和资源
+- 计算请求
 
-- 计算辅助请求API
+- 数据请求
 
-- 数据请求和查询API
+- 控制接口
 
-- 控制接口和证书
+#### [云端协同](Q4/)
 
-#### [文件Q4](Q4/)
+Q2通信体系和Q4弹性体系协同资源
 
-Q2体系和Q4体系协同规范和资源
+- 路由规范
 
-- 通信体系节点编码规范
-
-- 通信体系数据解析协议
+- 通信规范
 
 ---
 
-- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
+边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-## [包含节点](https://github.com/OS-Q/Q2/wiki/index) 
+## [包含节点](https://github.com/OS-Q/Q2/wiki) 
 
-#### M4：[桥接节点](https://github.com/OS-Q/M4)
+#### M4：[数据桥接](https://github.com/OS-Q/M4)
 
 作为通信桥梁转换或增强相应信号
 
-#### M5：[集成节点](https://github.com/OS-Q/M5)
+#### M5：[通信终端](https://github.com/OS-Q/M5)
 
 集成通信和控制的一体化边缘节点
 
-#### M6：[路由节点](https://github.com/OS-Q/M6)
+#### M6：[数据路由](https://github.com/OS-Q/M6)
 
 物联设备内部数据交换和网络连接
 
@@ -57,7 +54,7 @@ Q2体系和Q4体系协同规范和资源
 
 用于执行Q系统数据生产消费的边缘设备体系
 
-#### -> Q2：[边缘通信](https://github.com/OS-Q/Q2)
+#### [Q2：边缘通信](https://github.com/OS-Q/Q2)
 
 用于执行Q系统数据转移运输的边缘设备体系
 
@@ -72,8 +69,6 @@ Q2体系和Q4体系协同规范和资源
 
 ---
 
-####  qitas@qitas.cn
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-####  © 2018-12-11
-
----
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2018-12-25
