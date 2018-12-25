@@ -1,4 +1,4 @@
-﻿# Q2：[边通信](https://github.com/OS-Q/Q2)
+﻿# Q2：[边缘通信](https://github.com/OS-Q/Q2)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
