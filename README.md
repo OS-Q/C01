@@ -36,17 +36,17 @@ Q2通信体系和Q4弹性体系协同资源
 
 ## [包含节点](https://github.com/OS-Q/Q2/wiki) 
 
-#### M4：[数据桥接](https://github.com/OS-Q/M4)
+#### M4：[桥接管道](https://github.com/OS-Q/M4)
 
-作为通信桥梁转换或增强相应信号
+作为上下层级设备控制的通信管道
 
-#### M5：[通信终端](https://github.com/OS-Q/M5)
+#### M5：[无线终端](https://github.com/OS-Q/M5)
 
-集成通信和控制的一体化边缘节点
+集成无线通信和边缘控制终端设备
 
-#### M6：[数据路由](https://github.com/OS-Q/M6)
+#### M6：[数据网关](https://github.com/OS-Q/M6)
 
-物联设备内部数据交换和网络连接
+数据中转节点，数据的汇集和处理
 
 ## [设备体系](https://github.com/OS-Q/Edge-Q/wiki)
 
