@@ -7,11 +7,11 @@
 
 ### [Dividion描述](https://github.com/OS-Q/Q2/wiki) 
 
-[Dividion Q2](https://github.com/OS-Q/Q2) 面向主流控制器
+[Dividion Q2](https://github.com/OS-Q/Q2)面向主流控制器
 
 ### [拓扑关系](https://github.com/OS-Q)
 
-* Q1：[Low end 8bits](https://github.com/OS-Q/Q1)
+* Q1：[Low end](https://github.com/OS-Q/Q1)
     * M01：[8051](https://github.com/OS-Q/M01)
         * H01：[STC](https://github.com/OS-Q/H01)
         * H02：[WCH](https://github.com/OS-Q/H02)
@@ -53,4 +53,4 @@
         * H24：[x64](https://github.com/OS-Q/H16)    
 
 
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/Q2)
+### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/Q2)
