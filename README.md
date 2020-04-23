@@ -7,7 +7,7 @@
 
 ### [Dividion描述](https://github.com/OS-Q/Q2/wiki) 
 
-[Dividion Q2](https://github.com/OS-Q/Q2)面向主流控制器
+[Dividion Q2](https://github.com/OS-Q/Q2)主流控制器
 
 ### [拓扑关系](https://github.com/OS-Q)
 
@@ -19,12 +19,12 @@
         * H03：[STM8S](https://github.com/OS-Q/H03)
         * H04：[STM8L](https://github.com/OS-Q/H04)
     * M03：[AVR](https://github.com/OS-Q/M03)
-        * H05：[ATMEGA328P](https://github.com/OS-Q/H05)
-        * H06：[LGT8F328P](https://github.com/OS-Q/H06)
+        * H05：[MEGA](https://github.com/OS-Q/H05)
+        * H06：[LGT](https://github.com/OS-Q/H06)
 * Q2：[Universal MCU](https://github.com/OS-Q/Q2)
     * M04：[Cortex](https://github.com/OS-Q/M04)
         * H07：[STM32](https://github.com/OS-Q/H07)
-        * H08：[GD32F](https://github.com/OS-Q/H08)
+        * H08：[GD32E](https://github.com/OS-Q/H08)
     * M05：[RISC-V](https://github.com/OS-Q/M05)
         * H09：[GD32V](https://github.com/OS-Q/H09)
         * H10：[K210](https://github.com/OS-Q/H10)
