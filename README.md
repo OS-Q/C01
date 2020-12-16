@@ -1,56 +1,10 @@
-﻿# [Dividion Q2](https://github.com/OS-Q/Q2)
+﻿# [CMake](https://github.com/OS-Q/C01)
 
 [![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
+### [简介](https://github.com/OS-Q/C01/wiki)
 
-* Q[4] - M[12] - W[52] - D[365] - H[24] - N[60] - S[60]
-* Kingdom - Dividion(Q) - Class(M) - Order(H) - Family(U) - Genus(T) - Species(B) 
+[CMake](https://cmake.org/)是一个跨平台的安装（编译）工具，可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件，能测试编译器所支持的C++特性,类似UNIX下的automake。
 
-### [Dividion描述](https://github.com/OS-Q/Q2/wiki) 
+[CMake](https://gitlab.kitware.com/cmake/cmake)并不直接建构出最终的软件，而是产生标准的建构档（如 Unix 的 Makefile 或 Windows Visual C++ 的 projects/workspaces），然后再依一般的建构方式使用。这使得熟悉某个集成开发环境（IDE）的开发者可以用标准的方式建构他的软件，这种可以使用各平台的原生建构系统的能力是 CMake 和 SCons 等其他类似系统的区别之处。
 
-[Dividion Q2](https://github.com/OS-Q/Q2)主流控制器
-
-### [拓扑关系](https://github.com/OS-Q)
-
-* Q1：[Low end](https://github.com/OS-Q/Q1)
-    * M01：[8051](https://github.com/OS-Q/M01)
-        * H01：[STC](https://github.com/OS-Q/H01)
-        * H02：[WCH](https://github.com/OS-Q/H02)
-    * M02：[STM8](https://github.com/OS-Q/M02)
-        * H03：[STM8S](https://github.com/OS-Q/H03)
-        * H04：[STM8L](https://github.com/OS-Q/H04)
-    * M03：[AVR](https://github.com/OS-Q/M03)
-        * H05：[MEGA](https://github.com/OS-Q/H05)
-        * H06：[LGT](https://github.com/OS-Q/H06)
-* Q2：[Universal MCU](https://github.com/OS-Q/Q2)
-    * M04：[Cortex](https://github.com/OS-Q/M04)
-        * H07：[STM32](https://github.com/OS-Q/H07)
-        * H08：[GD32E](https://github.com/OS-Q/H08)
-    * M05：[RISC-V](https://github.com/OS-Q/M05)
-        * H09：[GD32V](https://github.com/OS-Q/H09)
-        * H10：[K210](https://github.com/OS-Q/H10)
-    * M06：[ASIC](https://github.com/OS-Q/M06)
-        * H11：[FPGA](https://github.com/OS-Q/H11)
-        * H12：[CPLD](https://github.com/OS-Q/H12)
-* Q3：[Popular IoT SoC](https://github.com/OS-Q/Q3)
-    * M07：[ESP](https://github.com/OS-Q/M07)
-        * H13：[ESP8266](https://github.com/OS-Q/H13)
-        * H14：[ESP32](https://github.com/OS-Q/H14)    
-    * M08：[NRF](https://github.com/OS-Q/M08)
-        * H15：[NRF51](https://github.com/OS-Q/H15)
-        * H16：[NRF52](https://github.com/OS-Q/H16)    
-    * M09：[RDA](https://github.com/OS-Q/M09)
-        * H17：[8909](https://github.com/OS-Q/H17)
-        * H18：[8910](https://github.com/OS-Q/H18)    
-* Q4：[Normal computer](https://github.com/OS-Q/Q4)
-    * M10：[arm](https://github.com/OS-Q/M10)
-        * H19：[armv7](https://github.com/OS-Q/H15)
-        * H20：[armv8](https://github.com/OS-Q/H16)    
-    * M11：[linux](https://github.com/OS-Q/M11)
-        * H21：[x86](https://github.com/OS-Q/H15)
-        * H22：[x64](https://github.com/OS-Q/H16)    
-    * M12：[window](https://github.com/OS-Q/M12)
-        * H23：[x86](https://github.com/OS-Q/H15)
-        * H24：[x64](https://github.com/OS-Q/H16)    
-
-
-### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/Q2)
+### [OS-Q = [Open Source & Operating System]](http://www.OS-Q.com)
