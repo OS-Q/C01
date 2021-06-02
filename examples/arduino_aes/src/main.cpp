@@ -12,7 +12,7 @@ char message[] = "0123456789ABCDEF";
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("\nMicrochip ATSAMR34 Xplained Pro 2019 Georgi Angelov");
+  Serial.println("\nMicrochip ATSAMR34 Xplained Pro  ");
   Serial.printf("MESSAGE    %s\n", message);
 
   uint8_t *p;

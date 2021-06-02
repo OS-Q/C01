@@ -45,7 +45,7 @@ void LoRa_send()
 void setup()
 {
     Serial.begin(115200);
-    Serial.println("\nMicrochip SAMR34 Xplained Pro 2019 Georgi Angelov");
+    Serial.println("\nMicrochip SAMR34 Xplained Pro  ");
     pinMode(LED_Y, OUTPUT);
     digitalWrite(LED_Y, LED_OFF);
     pinMode(LED_G, OUTPUT);

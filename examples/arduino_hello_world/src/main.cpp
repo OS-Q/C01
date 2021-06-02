@@ -4,7 +4,7 @@ void setup()
 {
     Serial.begin(115200);
     delay(1);
-    Serial.println("\nMicrochip ATSAMR34 Xplained Pro 2019 Georgi Angelov");
+    Serial.println("\nMicrochip ATSAMR34 Xplained Pro  ");
     pinMode(LED, OUTPUT);
     Serial.println("SETUP");
 }

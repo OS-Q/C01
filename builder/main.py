@@ -3,7 +3,7 @@ from SCons.Script import (AlwaysBuild, Default, DefaultEnvironment)
 from colorama import Fore
 
 env = DefaultEnvironment()
-print( Fore.GREEN + '<<<<<<<<<<<< ' + env.BoardConfig().get("name").upper() + " 2019 Georgi Angelov >>>>>>>>>>>>" + Fore.BLACK )
+print( Fore.GREEN + '<<<<<<<<<<<< ' + env.BoardConfig().get("name").upper() + "   >>>>>>>>>>>>" + Fore.BLACK )
 
 elf = env.BuildProgram()
 bin = env.CreateBin( join("$BUILD_DIR", "${PROGNAME}"), elf )

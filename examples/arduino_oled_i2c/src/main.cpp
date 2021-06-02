@@ -49,7 +49,7 @@ void onTimer(void)
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("ATSAMR34 Arduino 2019 Georgi Angelov");
+  Serial.println("ATSAMR34 Arduino  ");
   Serial.printf("RESET FROM: %d\n", get_reset_cause());
   dev.getSerialNumber(SN);
   Serial.print("SERIAL NUMBER: ");

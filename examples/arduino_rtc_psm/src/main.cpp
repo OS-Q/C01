@@ -8,7 +8,7 @@ uint32_t psm_counter; // test value for rtc backup
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("\nMicrochip ATSAMR34 Xplained Pro 2019 Georgi Angelov");
+  Serial.println("\nMicrochip ATSAMR34 Xplained Pro  ");
   RF.end(); // put RF to sleep
 
   int c = get_reset_cause();
