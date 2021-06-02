@@ -3,34 +3,34 @@
   "title": "OS-Q SAMR34/35 SiP",
   "description": "Sam LoRa",
   "url": "http://platformio.org/platforms/",
-  "homepage": "http://www.wizio.eu",
-  "license": "Apache-2.0",
+  "homepage": "http://www.OS-Q.com",
   "engines": {
     "platformio": "^5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-sam-lora.git"
+    "url": "https://github.com/OS-Q/P424.git"
   },
   "version": "0.1.2",
   "frameworks": {
     "arduino": {
-      "package": "framework-sam-lora",
-      "script": "builder/frameworks/arduino.py"
+      "package": "E424",
+      "script": "extend/frameworks/arduino.py"
     },
     "baremetal": {
-      "package": "framework-sam-lora",
-      "script": "builder/frameworks/baremetal.py"
+      "package": "E424",
+      "script": "extend/frameworks/baremetal.py"
     }
   },
   "packages": {
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
-      "version": "=1.70201.0"
+      "owner": "platformio",
+      "version": "~1.90201.0"
     },
-    "framework-sam-lora": {
+    "E424": {
       "type": "framework",
-      "version": "https://github.com/Wiz-IO/framework-sam-lora"
+      "version": "https://github.com/OS-Q/E424.git"
     },
     "tool-sam-lora": {
       "type": "uploader",

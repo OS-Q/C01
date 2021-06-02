@@ -1,13 +1,3 @@
-/*
-    Open: 
-      framework-sam-lora/arduino/libraries/Beelan-LoRaWAN/src/Config.h and enable your band
-
-      abp.cpp and edit your settings
-
-    Library info:
-      https://github.com/BeelanMX/Beelan-LoRaWAN
-*/
-
 #include <Arduino.h>
 #include <beelan-lorawan.h>
 
@@ -42,7 +32,7 @@ void setup()
   }
   lora.setDeviceClass(CLASS_A); // Set LoRaWAN Class change CLASS_A or CLASS_C
   lora.setDataRate(SF8BW125);   // Set Data Rate
-  lora.setChannel(CH0);       
+  lora.setChannel(CH0);
   lora.setNwkSKey(nwkSKey);     // ABP
   lora.setAppSKey(appSKey);
   lora.setDevAddr(devAddr);

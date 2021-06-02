@@ -30,7 +30,8 @@
   "packages": {
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
-      "version": "=1.70201.0"
+      "owner": "platformio",
+      "version": "~1.90201.0"
     },
     "framework-sam-lora": {
       "type": "framework",
