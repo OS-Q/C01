@@ -61,6 +61,7 @@ jobs:
           - "arduino_rtc_psm"
           - "arduino_simple_lora"
           - "asf_blink"
+          - "bootloader"
         package: ["pio","qio"]
         # os: [ubuntu-latest, windows-latest, macos-latest]
 

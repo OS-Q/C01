@@ -24,7 +24,7 @@ const sRFM_pins RFM_pins = {
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("Arduino SAMR34 LoRaWAN  2019 Georgi Angelov");
+  Serial.println("Arduino SAMR34 LoRaWAN");
   if (!lora.init())
   {
     Serial.println("RF not detected");

@@ -1,9 +1,8 @@
 /*
     Libraries:
-        Adafruit GFX 
+        Adafruit GFX
         Adafruit SSD1306 128x64
-
-    OLED: 
+    OLED:
         https://store.comet.bg/Catalogue/Product/51127/
 
 */
@@ -19,6 +18,7 @@ Timer T;
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 Adafruit_SSD1306 display;
+
 #define SLAVE_ADDRESS 0x78 >> 1
 #define imageWidth 78
 #define imageHeight 64
