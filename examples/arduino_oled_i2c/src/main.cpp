@@ -30,13 +30,13 @@ void oled_setup()
   display.setTextSize(2);
   display.setTextColor(WHITE);
   display.setCursor(0, 0);
-  display.println("  Arduino");
+  display.println(" Arduino");
   display.setTextColor(BLACK, WHITE);
   display.println(" ATSAMR34 ");
   display.setTextSize(1);
   display.setTextColor(WHITE, BLACK);
   display.println();
-  display.println("WizIO 2019 Microchip");
+  display.println("Microchip");
   display.display();
 }
 

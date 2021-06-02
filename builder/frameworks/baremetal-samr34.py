@@ -16,7 +16,7 @@ def dev_compiler(env):
     env.cortex = ["-mcpu=cortex-m0plus", "-mfloat-abi=soft", "-mthumb"]
 
 def dev_init(env, platform):
-    env.framework_dir = env.PioPlatform().get_package_dir("framework-sam-lora")
+    env.framework_dir = env.PioPlatform().get_package_dir("E424")
     env.tool_dir = join(env.PioPlatform().get_package_dir("tool-sam-lora"))
     create_template(env, [ 'main.c', 'startup_samr34.c' ])
     dev_compiler(env)

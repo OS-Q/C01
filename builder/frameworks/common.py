@@ -62,7 +62,7 @@ def atprogram(target, source, env):
 
 def create_template(env, files):
     for src in files:
-        src = join(env.PioPlatform().get_package_dir("framework-sam-lora"), "templates", src)
+        src = join(env.PioPlatform().get_package_dir("E424"), "templates", src)
         head, fname = os.path.split(src)
         dst = join( env.subst("$PROJECT_DIR"), "src", fname)
         if False == os.path.isfile( dst ):
